@@ -19,7 +19,7 @@ jobs:
       - run: python firstProgram.py
 
       - name: success message
-        run: program executed successfully on ubuntu-latest!!
+        run: echo program executed successfully on ubuntu-latest!!
   job2:
     runs-on: windows-latest
 
@@ -31,4 +31,4 @@ jobs:
       - run: python firstProgram.py
 
       - name: success message
-        run: program executed successfully on windows-latest!!
+        run: Write-Output program executed successfully on windows-latest!!
