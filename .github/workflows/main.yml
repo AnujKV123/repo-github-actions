@@ -31,4 +31,4 @@ jobs:
       - run: python firstProgram.py
 
       - name: success message
-        run: Write-Output program executed successfully on windows-latest!!
+        run: Write-Output "program executed successfully on windows-latest!!"
